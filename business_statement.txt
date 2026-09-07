@@ -1,0 +1,51 @@
+# Business Questions
+
+## 1. Product & Category Performance
+
+* Which products are ordered most frequently?
+* Which departments generate the highest order volume?
+* Which aisles generate the highest order volume?
+* What is the reorder rate by product, aisle, and department?
+* Which departments have:
+
+  * High order volume but low reorder rate?
+  * Low order volume but high reorder rate?
+
+---
+
+## 2. Customer Purchase Behavior
+
+* What is the distribution of orders per customer?
+* What is the average `days_since_prior_order`?
+* What is the average basket size (items per order)?
+
+---
+
+## 3. Temporal Analysis
+
+* Which day of the week has the highest order volume?
+* Which hour of the day has the highest order volume?
+* How do order patterns vary by day and hour?
+
+---
+
+## 4. Reorder Behavior
+
+* What percentage of ordered items are reorders?
+* Which products have the highest reorder rates?
+* Does `add_to_cart_order` influence reorder likelihood?
+
+---
+
+## 5. Market Basket Analysis
+
+* Which product pairs are most frequently purchased together?
+* Which aisles or departments commonly co-occur in the same order?
+
+---
+
+## 6. Department & Aisle Segmentation
+
+* Rank departments by total items sold.
+* Rank aisles by total items sold.
+* Identify the top 5 products in each department.
